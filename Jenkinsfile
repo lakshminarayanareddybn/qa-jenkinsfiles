@@ -1,3 +1,4 @@
+@Library('qa-sharedlibraries')
 pipeline {
   agent any
   stages {
