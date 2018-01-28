@@ -6,7 +6,7 @@ pipeline {
     stage('Setup') {
       steps {
         echo 'This is Setup'
-        src.blueocean.lib.Utilities.print
+        Utilities.print
       }
     }
   }
